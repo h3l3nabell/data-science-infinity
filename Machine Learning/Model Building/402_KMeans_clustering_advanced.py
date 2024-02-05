@@ -17,7 +17,6 @@ import matplotlib.pyplot as plt
 # create the data
 ######################################
 
-
 # import tables
 
 transactions = pd.read_excel(
