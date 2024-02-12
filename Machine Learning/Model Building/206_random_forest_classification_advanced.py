@@ -91,7 +91,7 @@ x_test = x_test.drop(categorical_vars, axis=1)
 
 
 # create regression object
-clf = c(random_state=42, n_estimators=500, max_features=5)
+clf = RandomForestClassifier(random_state=42, n_estimators=500, max_features=5)
 
 # train model
 clf.fit(x_train, y_train)
